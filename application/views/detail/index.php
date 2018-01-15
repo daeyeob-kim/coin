@@ -1,6 +1,21 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
+<head>
+    <!--
+        Insert Tooltips: Refer to here(https://atomiks.github.io/tippyjs/)
+        To use it, add 'title=""' attribute to an element.'
+    -->
+    <script src="https://unpkg.com/tippy.js@2.0.9/dist/tippy.all.min.js"></script>
+</head>
+<script type="text/javascript">
+    tippy('[title]', {
+        interactive: 'hover',
+        arrow: 'true',
+        arrowType: 'round',
+        animation: 'shift-away',
+    })
+</script>
 <style>
 .info{
     width:100%;
@@ -405,7 +420,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <br>
         <p class="subject">구매가능 :</p><span><?=$project['can_buy']?></span>
         <br>
-        <p class="subject">Soft cap :</p><span><?=$project['softcap']?></span>
+        <p class="subject" title="Soft Cap이란 바로~" id="softcap">Soft cap :</p><span><?=$project['softcap']?></span>
         <br>
         <p class="subject">Hard cap :</p><span><?=$project['hardcap']?></span>
         <br>
