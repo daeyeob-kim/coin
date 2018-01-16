@@ -13,7 +13,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
 .info .coin_title{
 height: 36px;
 width: calc( 100% - 260px);
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 24px;
 font-weight: 900;
 font-style: normal;
@@ -29,7 +29,7 @@ display:inline-block;
 .info .coin_summary {
 height: 24px;
 width: calc( 100% - 260px);
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 16px;
 font-weight: normal;
 font-style: normal;
@@ -77,7 +77,7 @@ color: #ffffff;
 }
 .info .whitepaper p {
 height: 24px;
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 16px;
 text-align: center;
 font-weight: normal;
@@ -95,7 +95,7 @@ margin-left:60px;
 max-width:760px;
 }
 .basic_info .title {
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 24px;
 font-weight: 300;
 font-style: normal;
@@ -128,7 +128,7 @@ margin-top:12px;
 .basic_value .subject{
 width:200px;
 height: 24px;
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 16px;
 font-weight: bold;
 font-style: normal;
@@ -152,7 +152,7 @@ margin-left:60px;
 max-width:760px;
 }
 .investment_info .title {
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 24px;
 font-weight: 300;
 font-style: normal;
@@ -184,7 +184,7 @@ margin-top:12px;
 .investment_value .subject{
 width:200px;
 height: 24px;
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 16px;
 font-weight: bold;
 font-style: normal;
@@ -220,7 +220,7 @@ border: solid 1px #3e9df3;
 text-align: center;
 padding: 14px;
 height: 24px;
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 16px;
 font-weight: normal;
 font-style: normal;
@@ -230,7 +230,7 @@ letter-spacing: normal;
 color: #ffffff;
 }
 .status_info .status{
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 24px;
 font-weight: bold;
 font-style: normal;
@@ -248,7 +248,7 @@ margin-top:24px;
 margin-bottom:24px;
 }
 .status_info .subject{
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 16px;
 font-weight: bold;
 font-style: normal;
@@ -259,7 +259,7 @@ text-align: left;
 color: #4a4a4a;
 }
 .status_info .time{
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 24px;
 font-weight: 300;
 font-style: normal;
@@ -271,7 +271,7 @@ color: #444444;
 margin-bottom:24px;
 }
 .status_info .value_now{
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 24px;
 font-weight: 300;
 font-style: normal;
@@ -283,7 +283,7 @@ color: #fc6488;
 margin-bottom:24px;
 }
 .status_info .value_total{
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 16px;
 font-weight: 300;
 font-style: normal;
@@ -300,7 +300,7 @@ margin-left:60px;
 max-width:760px;
 }
 .team_info .title {
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 24px;
 font-weight: 300;
 font-style: normal;
@@ -333,7 +333,7 @@ background-color: #efefef;
 float:left;
 }
 .team_info .name{
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 16px;
 font-weight: bold;
 font-style: normal;
@@ -347,7 +347,7 @@ margin-bottom:8px;
 display: inline-block;
 }
 .team_info .position{
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 16px;
 font-weight: normal;
 font-style: normal;
@@ -361,7 +361,7 @@ display: inline-block;
 }
 
 .more{
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 16px;
 font-weight: normal;
 font-style: normal;
@@ -380,7 +380,7 @@ margin-left:60px;
 max-width:760px;
 }
 .news_info .title {
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 24px;
 font-weight: 300;
 font-style: normal;
@@ -415,7 +415,7 @@ background-color: #efefef;
 float:left;
 }
 .news_info .article_title{
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 16px;
 font-weight: bold;
 font-style: normal;
@@ -433,7 +433,7 @@ max-height:48px;
 overflow: hidden;
 }
 .news_info .article_contents{
-font-family: NotoSansCJKkr;
+font-family: Noto Sans KR;
 font-size: 16px;
 font-weight: normal;
 font-style: normal;

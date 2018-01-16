@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 	<meta charset="utf-8">
 	<title><?=$title?></title>
-    <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
     <link href="/static/css/common.css" type="text/css" rel="stylesheet" />
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
