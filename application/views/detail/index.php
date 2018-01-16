@@ -1,6 +1,21 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
+<head>
+    <!--
+        Insert Tooltips: Refer to here(https://atomiks.github.io/tippyjs/)
+        To use it, add 'title=""' attribute to an element.'
+    -->
+    <script src="https://unpkg.com/tippy.js@2.0.9/dist/tippy.all.min.js"></script>
+</head>
+<script type="text/javascript">
+    tippy('[title]', {
+        interactive: 'hover',
+        arrow: 'true',
+        arrowType: 'round',
+        animation: 'shift-away',
+    })
+</script>
 <style>
 .info{
     width:100%;
@@ -11,6 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     margin-top:60px;
     margin-left:60px;
     float:left;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
 }
 .info .coin_title{
     height: 36px;
@@ -36,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: normal;
+    line-height: 24px;
     letter-spacing: normal;
     text-align: left;
     color: #4a4a4a;
@@ -57,29 +73,36 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     border-radius: 50px;
     background-color: #ffffff;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+    transition: all ease 0.2s;
+}
+.info .tags .rect:hover {
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.1);
 }
 .info .whitepaper {
     width: calc(100% - 260px);
-    height: 51px;
+    height: 52px;
     border-radius: 50px;
     background-color: #ffffff;
     border: solid 1px #3e9df3;
     margin-top:24px;
     margin-left:260px;
+    color: #3e9df3;
+    transition: all ease 0.2s;
 }
-
+.info .whitepaper:hover {
+    background-color: #3e9df3;
+    color: #ffffff;
+}
 .info .whitepaper p {
   height: 24px;
   font-family: NotoSansCJKkr;
   font-size: 16px;
   text-align: center;
-  padding: 14px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: normal;
+  line-height: 52px;
   letter-spacing: normal;
-  color: #3e9df3;
 }
 
 
@@ -203,7 +226,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     border-radius: 23px;
     background-color: #3e9df3;
     border: solid 1px #3e9df3;
-    
+
 }
 .icolink p{
     text-align: center;
@@ -347,7 +370,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <p class="subject">종료 시간</p>
     <p class="time"><?=$project['end_time']?></p>
     <p class="subject">모인 금액</p>
-    <p class="value_now">123412345<span class="value_total">/1234512345</span></p>
+    <p class="value_now">123412345<span class="value_total"> /1234512345</span></p>
     <div class="icolink"><p>ICO 참여하기</p></div>
 </div>
 <div class="left_side">
@@ -382,7 +405,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <p class="subject"><?=$sns['sns_name']?> :</p><span onclick="document.location.href='<?=$sns['sns_url']?>';"><?=$sns['sns_url']?></span><br>
         <?endforeach;?>
         <?endif;?>
-        
+
     </div>
     <div class="investment_info">
         <p class="title">투자정보</p>
@@ -391,18 +414,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <?=$project['contents_'.$lang]?>
         </div>
     </div>
-    
+
     <div class="investment_value">
         <p class="subject">총공급 :</p><span><?=$project['totalsupply']?></span>
         <br>
         <p class="subject">구매가능 :</p><span><?=$project['can_buy']?></span>
         <br>
-        <p class="subject">Soft cap :</p><span><?=$project['softcap']?></span>
+        <p class="subject" title="Soft Cap이란 바로~" id="softcap">Soft cap :</p><span><?=$project['softcap']?></span>
         <br>
         <p class="subject">Hard cap :</p><span><?=$project['hardcap']?></span>
         <br>
     </div>
-    
+
     <style>
     .team_info .teams{
         margin-top:24px;
@@ -446,7 +469,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         color: #4a4a4a;
         display: inline-block;
     }
-    
+
     .more{
       font-family: NotoSansCJKkr;
       font-size: 16px;
@@ -458,11 +481,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       text-align: right;
       color: #4a4a4a;
     }
-    
-    
+
+
     </style>
     <div class="team_info">
-        
+
         <p class="title">개발팀</p>
         <div class="line"></div>
         <div class="teams">
@@ -478,10 +501,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <?endif;?>
         </div>
         <p class="more">개발팀 더 보기 ></p>
-        
+
     </div>
-    
-    
+
+
     <style>
     .news_info .news{
         margin-top:24px;
@@ -535,7 +558,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         max-height:40px;
         overflow: hidden;
     }
-    
+
     </style>
     <div class="news_info">
         <p class="title">뉴스</p>
@@ -553,7 +576,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <?endif;?>
         </div>
         <p class="more">더 많은 뉴스 보기 ></p>
-        
+
     </div>
 </div>
 
