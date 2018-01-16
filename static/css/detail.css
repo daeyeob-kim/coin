@@ -1,0 +1,456 @@
+
+.info{
+width:100%;
+}
+.info .coin_img {
+width:160px;
+height:160px;
+margin-top:60px;
+margin-left:60px;
+float:left;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+.info .coin_title{
+height: 36px;
+width: calc( 100% - 260px);
+font-family: NotoSansCJKkr;
+font-size: 24px;
+font-weight: 900;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #444444;
+margin-top:60px;
+margin-left:40px;
+display:inline-block;
+}
+.info .coin_summary {
+height: 24px;
+width: calc( 100% - 260px);
+font-family: NotoSansCJKkr;
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 24px;
+letter-spacing: normal;
+text-align: left;
+color: #4a4a4a;
+margin-top:12px;
+margin-left:40px;
+display: inline-block;
+}
+.info .tags{
+width: calc( 100% - 260px);
+display: inline-block;
+margin-top:24px;
+margin-left:40px;
+}
+.info .tags .rect {
+width: 69px;
+height: 40px;
+padding: 12px;
+border-radius: 50px;
+background-color: #ffffff;
+box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+transition: all ease 0.2s;
+}
+.info .tags .rect:hover {
+box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.1);
+}
+.info .whitepaper {
+width: calc(100% - 260px);
+height: 52px;
+border-radius: 50px;
+background-color: #ffffff;
+border: solid 1px #3e9df3;
+margin-top:24px;
+margin-left:260px;
+color: #3e9df3;
+transition: all ease 0.2s;
+}
+.info .whitepaper:hover {
+background-color: #3e9df3;
+color: #ffffff;
+}
+.info .whitepaper p {
+height: 24px;
+font-family: NotoSansCJKkr;
+font-size: 16px;
+text-align: center;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 52px;
+letter-spacing: normal;
+}
+
+
+
+.basic_info{
+margin-top:48px;
+margin-left:60px;
+max-width:760px;
+}
+.basic_info .title {
+font-family: NotoSansCJKkr;
+font-size: 24px;
+font-weight: 300;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #4a4a4a;
+margin-bottom:12px;
+}
+.basic_info .line{
+height: 2px;
+border-radius: 2px;
+background-color: #efefef;
+}
+.basic_info .contents{
+margin-top:24px;
+}
+
+
+
+
+.basic_value{
+margin-top:48px;
+}
+.basic_value .cont{
+margin-left:60px;
+margin-top:12px;
+}
+.basic_value .subject{
+width:200px;
+height: 24px;
+font-family: NotoSansCJKkr;
+font-size: 16px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #4a4a4a;
+display:inline-block;
+vertical-align: top;
+}
+.value_div{
+width: calc(100% - 260px);
+display: inline-block;
+}
+
+
+.investment_info{
+margin-top:48px;
+margin-left:60px;
+max-width:760px;
+}
+.investment_info .title {
+font-family: NotoSansCJKkr;
+font-size: 24px;
+font-weight: 300;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #4a4a4a;
+margin-bottom:12px;
+}
+.investment_info .line{
+height: 2px;
+border-radius: 2px;
+background-color: #efefef;
+}
+
+.investment_info .content{
+margin-top:24px;
+}
+
+
+.investment_value{
+margin-top:24px;
+}
+.investment_value .cont{
+margin-left:60px;
+margin-top:12px;
+}
+.investment_value .subject{
+width:200px;
+height: 24px;
+font-family: NotoSansCJKkr;
+font-size: 16px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #4a4a4a;
+display:inline-block;
+vertical-align: top;
+}
+
+
+.status_info {
+width: 280px;
+border-radius: 8px;
+background-color: #ffffff;
+box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.1);
+float: right;
+margin-top:60px;
+margin-right:60px;
+padding:24px;
+}
+.icolink{
+width: 100%;
+height: 48px;
+border-radius: 23px;
+background-color: #3e9df3;
+border: solid 1px #3e9df3;
+
+}
+.icolink p{
+text-align: center;
+padding: 14px;
+height: 24px;
+font-family: NotoSansCJKkr;
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #ffffff;
+}
+.status_info .status{
+font-family: NotoSansCJKkr;
+font-size: 24px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #4a4a4a;
+}
+.status_info .bar{
+height: 2px;
+border-radius: 2px;
+background-color: #efefef;
+margin-top:24px;
+margin-bottom:24px;
+}
+.status_info .subject{
+font-family: NotoSansCJKkr;
+font-size: 16px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #4a4a4a;
+}
+.status_info .time{
+font-family: NotoSansCJKkr;
+font-size: 24px;
+font-weight: 300;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #444444;
+margin-bottom:24px;
+}
+.status_info .value_now{
+font-family: NotoSansCJKkr;
+font-size: 24px;
+font-weight: 300;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #fc6488;
+margin-bottom:24px;
+}
+.status_info .value_total{
+font-family: NotoSansCJKkr;
+font-size: 16px;
+font-weight: 300;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #808080;
+}
+
+.team_info{
+margin-top:48px;
+margin-left:60px;
+max-width:760px;
+}
+.team_info .title {
+font-family: NotoSansCJKkr;
+font-size: 24px;
+font-weight: 300;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #4a4a4a;
+margin-bottom:12px;
+}
+.team_info .line{
+height: 2px;
+border-radius: 2px;
+background-color: #efefef;
+}
+
+.team_info .teams{
+margin-top:24px;
+}
+.team_info .teams .person{
+width:49%;
+height: 60px;
+margin-bottom:24px;
+display:inline-block;
+}
+.team_info .team_image{
+width: 60px;
+height: 60px;
+background-color: #efefef;
+float:left;
+}
+.team_info .name{
+font-family: NotoSansCJKkr;
+font-size: 16px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #4a4a4a;
+margin-left:24px;
+margin-bottom:8px;
+display: inline-block;
+}
+.team_info .position{
+font-family: NotoSansCJKkr;
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+margin-left:24px;
+color: #4a4a4a;
+display: inline-block;
+}
+
+.more{
+font-family: NotoSansCJKkr;
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: right;
+color: #4a4a4a;
+}
+
+
+
+.news_info{
+margin-top:48px;
+margin-left:60px;
+max-width:760px;
+}
+.news_info .title {
+font-family: NotoSansCJKkr;
+font-size: 24px;
+font-weight: 300;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #4a4a4a;
+margin-bottom:12px;
+}
+.news_info .line{
+height: 2px;
+border-radius: 2px;
+background-color: #efefef;
+}
+.news_info .news{
+margin-top:24px;
+}
+.news_info .news .article{
+width:49%;
+height: 120px;
+margin-bottom:24px;
+display:inline-block;
+border-radius: 8px;
+background-color: #ffffff;
+box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+}
+.news_info .article_image{
+width: 120px;
+height: 120px;
+background-color: #efefef;
+float:left;
+}
+.news_info .article_title{
+font-family: NotoSansCJKkr;
+font-size: 16px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #4a4a4a;
+margin-left:24px;
+margin-top:8px;
+margin-bottom:8px;
+display: inline-block;
+max-width:216px;
+max-height:48px;
+overflow: hidden;
+}
+.news_info .article_contents{
+font-family: NotoSansCJKkr;
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+margin-left:24px;
+color: #4a4a4a;
+display: inline-block;
+max-width:216px;
+max-height:40px;
+overflow: hidden;
+}
+
+
+.left_side{
+width: calc(100% - 433px);
+padding-right: 40px;
+}

@@ -5,51 +5,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 	<meta charset="utf-8">
 	<title><?=$title?></title>
-	<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+    <link href="/static/css/common.css" type="text/css" rel="stylesheet" />
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@2.0.9/dist/tippy.all.min.js"></script>
 </head>
 <body>
-<style>
-body{
-  width:100%;
-}
-body,div,p,span{
-  margin: 0;
-  padding: 0;
-}
-
-.body_contents{
-  min-width:1024px;
-  max-width:1200px;
-  margin: 0 auto;
-}
-.header {
-  width: 100%;
-  height: 60px;
-}
-.header .site_title {
-  width: 68px;
-  height: 18px;
-  margin:21px;
-  margin-left: 40px;
-  font-family: Gotham-Ultra;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #000000;
-  display: inline-block;
-}
-.header .line {
-  width: 100%;
-  height: 1px;
-  background-color: #efefef;
-}
-</style>
 <div class="body_contents">
 <div class="header">
 	<p class="site_title">ICOGate</p>
@@ -74,6 +36,15 @@ $('#lang_select').change(function(){
 		url = url + '&lang=' + $(this).val();
 	}
 	document.location.href = url;
+});
+
+$(document).ready(function(){
+    tippy('[title]', {
+        interactive: 'hover',
+        arrow: 'true',
+        arrowType: 'round',
+        animation: 'shift-away',
+    })
 });
 	
 </script>
